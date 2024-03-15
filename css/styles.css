@@ -380,7 +380,7 @@ img {
   .benefits-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
   }
 
   .benefits-item {
@@ -704,10 +704,10 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer-container {
+    width: 584px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    padding-left: 108px;
   }
 
   .footer-content {
@@ -732,7 +732,7 @@ img {
   }
 
   .footer-container {
-    padding-left: 16px;
+    width: 100%;
   }
 
   .footer-content {
@@ -835,7 +835,7 @@ img {
 
 .mobile-contact-link:hover,
 .mobile-contact-link:focus {
-  color: #404bbf;
+  color: #4d5ae5;
 }
 
 .mobile-social-list {
